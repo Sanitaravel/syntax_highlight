@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Output</title>
+</head>
+<body>
+{% for span in spans %}
+    <pre><span style="white-space: pre-line; {{ span['style'] }}"> {{ span['text'] }}</span></pre>
+{% endfor %}
+</body>
+</html>
